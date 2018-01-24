@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8217FC3420180F2200998B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8217FC3320180F2200998B2F /* Assets.xcassets */; };
+		8217FC4220180F2200998B2F /* provaIlegraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC4120180F2200998B2F /* provaIlegraTests.swift */; };
+		8217FC592018107500998B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8217FC4C2018107500998B2F /* Assets.xcassets */; };
+		8217FC5A2018107500998B2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8217FC4F2018107500998B2F /* Info.plist */; };
+		8217FC5B2018107500998B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC522018107500998B2F /* AppDelegate.swift */; };
+		8217FC5C2018107500998B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC552018107500998B2F /* ViewController.swift */; };
+		8217FC5D2018107500998B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8217FC572018107500998B2F /* LaunchScreen.storyboard */; };
+		8217FC5E2018107500998B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8217FC582018107500998B2F /* Main.storyboard */; };
+		8217FC64201812F000998B2F /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC60201812F000998B2F /* Mappable.swift */; };
+		8217FC65201812F000998B2F /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC61201812F000998B2F /* Convertible.swift */; };
+		8217FC66201812F000998B2F /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC62201812F000998B2F /* Errors.swift */; };
+		8217FC67201812F000998B2F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC63201812F000998B2F /* Mapper.swift */; };
+		8217FC692018132600998B2F /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC682018132600998B2F /* Characters.swift */; };
+		8217FC6B2018159500998B2F /* CharacterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC6A2018159500998B2F /* CharacterClient.swift */; };
+		8217FC6D2018162900998B2F /* BaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC6C2018162900998B2F /* BaseClient.swift */; };
+		8217FC70201837A100998B2F /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC6F201837A100998B2F /* CharacterCell.swift */; };
+		8217FC722018485300998B2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8217FC712018485300998B2F /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8217FC3E20180F2200998B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8217FC2120180F2200998B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8217FC2820180F2200998B2F;
+			remoteInfo = provaIlegra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8217FC2920180F2200998B2F /* provaIlegra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = provaIlegra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8217FC3320180F2200998B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8217FC3820180F2200998B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8217FC3D20180F2200998B2F /* provaIlegraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = provaIlegraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8217FC4120180F2200998B2F /* provaIlegraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provaIlegraTests.swift; sourceTree = "<group>"; };
+		8217FC4320180F2200998B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8217FC4C2018107500998B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8217FC4F2018107500998B2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8217FC522018107500998B2F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8217FC552018107500998B2F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8217FC572018107500998B2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8217FC582018107500998B2F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8217FC60201812F000998B2F /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		8217FC61201812F000998B2F /* Convertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convertible.swift; sourceTree = "<group>"; };
+		8217FC62201812F000998B2F /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		8217FC63201812F000998B2F /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		8217FC682018132600998B2F /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		8217FC6A2018159500998B2F /* CharacterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterClient.swift; sourceTree = "<group>"; };
+		8217FC6C2018162900998B2F /* BaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClient.swift; sourceTree = "<group>"; };
+		8217FC6E201827B100998B2F /* provaIlegra-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "provaIlegra-Bridging-Header.h"; sourceTree = "<group>"; };
+		8217FC6F201837A100998B2F /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		8217FC712018485300998B2F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8217FC2620180F2200998B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8217FC3A20180F2200998B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8217FC2020180F2200998B2F = {
+			isa = PBXGroup;
+			children = (
+				8217FC2B20180F2200998B2F /* provaIlegra */,
+				8217FC4020180F2200998B2F /* provaIlegraTests */,
+				8217FC2A20180F2200998B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8217FC2A20180F2200998B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC2920180F2200998B2F /* provaIlegra.app */,
+				8217FC3D20180F2200998B2F /* provaIlegraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8217FC2B20180F2200998B2F /* provaIlegra */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC4C2018107500998B2F /* Assets.xcassets */,
+				8217FC4D2018107500998B2F /* Cells */,
+				8217FC4E2018107500998B2F /* Clients */,
+				8217FC4F2018107500998B2F /* Info.plist */,
+				8217FC502018107500998B2F /* Models */,
+				8217FC512018107500998B2F /* Resources */,
+				8217FC532018107500998B2F /* Tools */,
+				8217FC542018107500998B2F /* ViewControllers */,
+				8217FC562018107500998B2F /* Views */,
+				8217FC3320180F2200998B2F /* Assets.xcassets */,
+				8217FC3820180F2200998B2F /* Info.plist */,
+			);
+			path = provaIlegra;
+			sourceTree = "<group>";
+		};
+		8217FC4020180F2200998B2F /* provaIlegraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC4120180F2200998B2F /* provaIlegraTests.swift */,
+				8217FC4320180F2200998B2F /* Info.plist */,
+			);
+			path = provaIlegraTests;
+			sourceTree = "<group>";
+		};
+		8217FC4D2018107500998B2F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC6F201837A100998B2F /* CharacterCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8217FC4E2018107500998B2F /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC6A2018159500998B2F /* CharacterClient.swift */,
+				8217FC6C2018162900998B2F /* BaseClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		8217FC502018107500998B2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC682018132600998B2F /* Characters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8217FC512018107500998B2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC522018107500998B2F /* AppDelegate.swift */,
+				8217FC6E201827B100998B2F /* provaIlegra-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8217FC532018107500998B2F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC5F201812F000998B2F /* Mapper */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8217FC542018107500998B2F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC552018107500998B2F /* ViewController.swift */,
+				8217FC712018485300998B2F /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8217FC562018107500998B2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC572018107500998B2F /* LaunchScreen.storyboard */,
+				8217FC582018107500998B2F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8217FC5F201812F000998B2F /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				8217FC60201812F000998B2F /* Mappable.swift */,
+				8217FC61201812F000998B2F /* Convertible.swift */,
+				8217FC62201812F000998B2F /* Errors.swift */,
+				8217FC63201812F000998B2F /* Mapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8217FC2820180F2200998B2F /* provaIlegra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8217FC4620180F2200998B2F /* Build configuration list for PBXNativeTarget "provaIlegra" */;
+			buildPhases = (
+				8217FC2520180F2200998B2F /* Sources */,
+				8217FC2620180F2200998B2F /* Frameworks */,
+				8217FC2720180F2200998B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = provaIlegra;
+			productName = provaIlegra;
+			productReference = 8217FC2920180F2200998B2F /* provaIlegra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8217FC3C20180F2200998B2F /* provaIlegraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8217FC4920180F2200998B2F /* Build configuration list for PBXNativeTarget "provaIlegraTests" */;
+			buildPhases = (
+				8217FC3920180F2200998B2F /* Sources */,
+				8217FC3A20180F2200998B2F /* Frameworks */,
+				8217FC3B20180F2200998B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8217FC3F20180F2200998B2F /* PBXTargetDependency */,
+			);
+			name = provaIlegraTests;
+			productName = provaIlegraTests;
+			productReference = 8217FC3D20180F2200998B2F /* provaIlegraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8217FC2120180F2200998B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marcelo Garcia";
+				TargetAttributes = {
+					8217FC2820180F2200998B2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8217FC3C20180F2200998B2F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8217FC2820180F2200998B2F;
+					};
+				};
+			};
+			buildConfigurationList = 8217FC2420180F2200998B2F /* Build configuration list for PBXProject "provaIlegra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8217FC2020180F2200998B2F;
+			productRefGroup = 8217FC2A20180F2200998B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8217FC2820180F2200998B2F /* provaIlegra */,
+				8217FC3C20180F2200998B2F /* provaIlegraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8217FC2720180F2200998B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8217FC5E2018107500998B2F /* Main.storyboard in Resources */,
+				8217FC3420180F2200998B2F /* Assets.xcassets in Resources */,
+				8217FC592018107500998B2F /* Assets.xcassets in Resources */,
+				8217FC5D2018107500998B2F /* LaunchScreen.storyboard in Resources */,
+				8217FC5A2018107500998B2F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8217FC3B20180F2200998B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8217FC2520180F2200998B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8217FC722018485300998B2F /* DetailViewController.swift in Sources */,
+				8217FC5C2018107500998B2F /* ViewController.swift in Sources */,
+				8217FC692018132600998B2F /* Characters.swift in Sources */,
+				8217FC66201812F000998B2F /* Errors.swift in Sources */,
+				8217FC65201812F000998B2F /* Convertible.swift in Sources */,
+				8217FC6D2018162900998B2F /* BaseClient.swift in Sources */,
+				8217FC70201837A100998B2F /* CharacterCell.swift in Sources */,
+				8217FC6B2018159500998B2F /* CharacterClient.swift in Sources */,
+				8217FC64201812F000998B2F /* Mappable.swift in Sources */,
+				8217FC67201812F000998B2F /* Mapper.swift in Sources */,
+				8217FC5B2018107500998B2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8217FC3920180F2200998B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8217FC4220180F2200998B2F /* provaIlegraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8217FC3F20180F2200998B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8217FC2820180F2200998B2F /* provaIlegra */;
+			targetProxy = 8217FC3E20180F2200998B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8217FC4420180F2200998B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8217FC4520180F2200998B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8217FC4720180F2200998B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = provaIlegra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.provaIlegra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Resources/provaIlegra-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8217FC4820180F2200998B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = provaIlegra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.provaIlegra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Resources/provaIlegra-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8217FC4A20180F2200998B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = provaIlegraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.provaIlegraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/provaIlegra.app/provaIlegra";
+			};
+			name = Debug;
+		};
+		8217FC4B20180F2200998B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = provaIlegraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelo.provaIlegraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/provaIlegra.app/provaIlegra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8217FC2420180F2200998B2F /* Build configuration list for PBXProject "provaIlegra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8217FC4420180F2200998B2F /* Debug */,
+				8217FC4520180F2200998B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8217FC4620180F2200998B2F /* Build configuration list for PBXNativeTarget "provaIlegra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8217FC4720180F2200998B2F /* Debug */,
+				8217FC4820180F2200998B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8217FC4920180F2200998B2F /* Build configuration list for PBXNativeTarget "provaIlegraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8217FC4A20180F2200998B2F /* Debug */,
+				8217FC4B20180F2200998B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8217FC2120180F2200998B2F /* Project object */;
+}
